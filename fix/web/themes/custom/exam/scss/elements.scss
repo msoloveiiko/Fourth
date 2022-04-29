@@ -1,0 +1,45 @@
+@import "fonts.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.layout__region--content {
+    position: relative;
+    text-align: center;
+}
+.layout--onecol {
+    h2 {
+        overflow: hidden;
+        text-align: center;
+        margin: 30px 0 20px;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 700;
+        width: 1200px;
+        margin: 0 auto;
+    }
+    h2:before,
+    h2:after {
+        content: '――――――――――――――――――――――--';
+        color: transparent;
+        display: inline-block;
+        letter-spacing: 0;
+        font-weight: 100;
+        border: 1px solid $grey;
+        line-height: 0;
+    }
+}
+.page-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.view-id-search_title {
+    margin: 30px 0;
+    padding-left: 30px;
+}

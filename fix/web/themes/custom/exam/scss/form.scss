@@ -1,0 +1,33 @@
+@import "fonts.scss";
+@import "_variables.scss";
+
+.form-text {
+    text-transform: uppercase;
+    padding: 20px 15px;
+    font-size: 16px;
+}
+.form-email {
+    text-transform: uppercase;
+    padding: 20px 15px;
+}
+.form-tel {
+    text-transform: uppercase;
+    padding: 20px 15px;
+    width: 487px;
+}
+.form-textarea {
+    width: 487px;
+    height: 250px;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    resize: none;
+}
+.webform-button--submit {
+    text-transform: uppercase;
+    padding: 18px 30px;
+    background-color: $orange;
+    color: #ffffff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 20px;
+}

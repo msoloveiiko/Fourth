@@ -1,0 +1,18 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/elements.css: {}
+      css/fonts.css: {}
+    component:
+      css/header.css: {}
+      css/main-menu.css: {}
+      css/about.css: {}
+      css/servises.css: {}
+      css/projects.css: {}
+      css/team.css: {}
+      css/news.css: {}
+      css/clients.css: {}
+      css/contact.css: {}
+      css/form.css: {}
+      css/footer.css: {}

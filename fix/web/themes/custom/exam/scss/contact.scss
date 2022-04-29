@@ -1,0 +1,28 @@
+@import "fonts.scss";
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.node--contact-full .node__content {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: 0 auto 60px;
+}
+.views-field-field-country {
+   text-transform: uppercase;
+   font-size: 20px;
+   font-weight: 500;
+   margin: 15px 0 5px;
+}
+.view-id-contact .views-field {
+    margin-bottom: 10px;
+}
+.views-field-field-email {
+    display: flex;
+    .views-label-field-email {
+        margin-right: 3px;
+    }
+}
+.views-field-field-maps {
+    margin-top: 48px;
+}

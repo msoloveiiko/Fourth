@@ -1,0 +1,19 @@
+name: "Exam"
+type: theme
+base theme: classy
+description: "Custom theme"
+package: "Exam"
+core_version_requirement: 9.x
+
+libraries:
+  - exam/global
+
+regions:
+  header: Header
+  logo: Logoo
+  primary_menu: 'Primary menu'
+  social: Sociall
+  search: Search
+  creativity: Creat
+  content: Content
+  footer: Footer

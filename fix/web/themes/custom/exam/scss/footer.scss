@@ -1,0 +1,41 @@
+@import "_variables.scss";
+@import "fonts.scss";
+
+.region-footer {
+    width: 100%;
+    background-color: $black;
+    .quickedit-field {
+        display: flex;
+        justify-content: space-between;
+        padding: 65px 0;
+        width: 1200px;
+        margin: 0 auto;
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        ol {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+            margin: auto 0;
+        }
+    }
+}
+.region-footer .quickedit-field ul :nth-child(1) {
+    font-size: 34px;
+    color: $blue;
+}
+.region-footer .quickedit-field ul :nth-child(2) {
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 2px;
+}
+.region-footer .quickedit-field ol li {
+    margin: 0 5px;
+}
+.clearfix:after {
+    display: table;
+    clear: both;
+    content: none;
+}
